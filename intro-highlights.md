@@ -1,6 +1,9 @@
-# ProNextJs.dev Course Review
+# Initial notes & thoughts
 
-This repo contains my notes while going through the [pronextjs.dev](pronextjs.dev) course. Note that these were exported from LogSeq so may include extra formatting.
+This repo contains my notes from going through the [ProNextJs.dev](pronextjs.dev) course. These were exported from LogSeq so may include some misc formatting.
+
+
+---
 
 - New course from Jack Herrington, partnership with Badass Courses
 - I was given complimentary access for providing feedback and a full review

@@ -39,7 +39,6 @@ Covers styling solutions at multiple touch points of the stack
 - shows an example of dark and light mode with the tw dark and light prefixes (super easy!)
 
 [Configure Container Queries with Tailwind CSS](https://www.pronextjs.dev/workshops/styling-next-js-applications-with-css-dylwm/configure-container-queries-with-tailwind-css)
-		id:: 66cd4459-7413-4339-954e-7a12cdf7d6f7
 - @container queries example
 - doesn't really work initially because tailwind v3 doesn't include container queries by default (you can include a plugin)
 - (goes and installs the plugin for v3, proclaims that v4 thankfully includes it)
