@@ -33,7 +33,7 @@ Initial Access:
 
 I did the work on these in a couple sub files linked here
 
-- [Next.js Foundations for Professional Web Development](Next.js Foundations for Professional Web Development.md)
+- [Next.js Foundations for Professional Web Development](nextjs-foundations.md)
 - [Styling Next.js Applications with CSS](./styling-module.md)
-- [Next.js Production Project Setup and Infrastructure](Next.js Production Project Setup and Infrastructure.md)
-- [Next.js React Server Component (RSC) Architecture](Next.js React Server Component (RSC) Architecture.md)
+- [Next.js Production Project Setup and Infrastructure](setup-and-infra.md)
+- [Next.js React Server Component (RSC) Architecture](rsc-architecture.md)
