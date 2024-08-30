@@ -182,10 +182,10 @@ Almost all of these
 - 😕 seems odd to put the client component in the middle, but I suppose that's how you get the suspense boundary to the client first (otherwise the page is blocking)
 
 [Cached Server Actions in Next.js](https://www.pronextjs.dev/workshops/next-js-react-server-component-rsc-architecture-jbvxk/cached-server-actions-in-next-js-ve3rl)
-- 🚩Oh no: mentions his friends at Haaretz in Isreal.
-	- (Is Jack a zionist / sympathizer? 💔 )
-	- This should be removed. It doesn't add anything to the content of the video, he could just say "I know a company that uses this approach" and leave the country out of it.
-	- it's gonna ruffle some feathers otherwise, given the ongoing genocide taking place in Israel
+- 🚩 Oh no: mentions his friends at Haaretz in Isreal.
+	- **This should be removed?**
+	- It doesn't add anything to the content of the video, he could just say "I know a company that uses this approach" and leave the country out of it.
+	- it's gonna ruffle some feathers otherwise, given the ongoing genocide by Israel
 - Used it for caching portions of their content site
 - using server actions for caching:
 	- client component makes a server action request

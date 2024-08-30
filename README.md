@@ -1,41 +1,21 @@
-# ProNextJs.dev Course Review
+# ProNextJs.dev Course Review (written out)
 
-This repo contains my notes while going through the [pronextjs.dev](pronextjs.dev) course. Note that these were exported from LogSeq so may include extra formatting.
+I've had the privilege of reviewing the "Professional Next.js" course by Jack Herrington. This repository contains my notes from working through all four base modules. But in case you don't want to parse through all that, here's a brief summary.
 
-- New course from Jack Herrington, partnership with Badass Courses
-- I was given complimentary access for providing feedback and a full review
-- Requirement: Submit full review by 2024/08/30
+Overall, "ProNextJs.dev" is exactly what it sounds like: a professional grade web-course that teaches Next.js from the ground up. The site works well, the videos are high quality, the sound is pretty good. I especially like the ultrawide layout showing the transcript and lesson description side by side; it's clear that the team behind this course has experience shipping high quality course websites.
 
-Initial Access:
+This isn't the first time I've used Next, so I wasn't going in completely blind. Next is one of those projects where over time I've read the manual front to back. While I knew a lot of the fundamentals (covered in the first module), it was still good to run through building a little demo, getting our feet wet with the basic template and route constructs. I can definitely see the value here for someone coming in green.
 
-- Access is provided through a magic link, and your account is tied to your email
-- Email can be transferred if you need to in the future 👍🏻
-- Upon logging in there is a link to the learning Discord and course materials 👍🏻
+The styling module goes into depth about how to work with styles in a Next.js app. I was initially surprised this was a whole dedicated section, but then there were a lot of example variations that did seem worth sharing. (We had everything from pure component libs, to css modules, to tailwind.) My only issue in this section was the lack of semantic markup, just doing everything with divs for the most part.
 
-## General Notes
+The architecture module is one to bookmark. Jack covers all sorts of tooling _around_ the Next.js project, with examples for linting, formatting, tests, etc. In particular, tests and storybook at both the component / e2e level are explored. Next.js is a beast, so I loved going through each example integration. I could sense some of Jack's former (module federation) training slipping through in the monorepo examples.
 
-- If you click away from the workshops ~~it's not obvious how to get back to them~~ (no global nav?) --
-	- I found the url `/workshops` based on pages open in other tabs
-	- **sometime mid week the "Pro Workshops" menu item started to show up ☺️**
-- Clicking around at the general structure of the site
-	- I really like the feedback widget for sending quick feedback on stuff 👍🏻
-	- Really like the widescreen layout, and the full written vs transcript being included 👍🏻
-- ~~lots of spinners on the player, couldn't always get consistent playback~~
-	- no, this is a me browser issue, something is up with arc vid playback across all pages rn
-	- safari is smooth tho
-- nit: Theme defaults to light: might be cool to default to system instead (punch in the face for us dark users)
-- There are a bunch of subtle mistranslations in the transcripts that could be fixed up
-	- do a codebase wide search and replace for "App Writer" (app router)
-	- I call it out in individual lessons where I noticed issues (look for "💬 ⁉️")
-- Section three and four get into some very specific examples
-	- It's good to have examples showing different architectural use cases
-	- Definitely beefs out the "professional next.js" title
+Finally: the RSC architecture block was probably the most useful to me. When I hear developers complain about unintuitive behavior, it's usually related to Next caching in some way. But Jack tackles it from all angles, providing some of those insights into how to handle more complex architectures. He frames caching as "good actually" for performance, then provides the tools to work with it at each separate layer.
 
-## Modules
+The course material is all fantastic. The quality of the training platform is top notch.
 
-I did the work on these in a couple sub files linked here
+Including transcripts (and video captions) makes it easier for me to engage and maintain focus. My only small complaint here was the prevalence of incorrect or misheard captions; almost anytime Jack refers to the "App Router" we instead get captions saying "App Writer". With context this is usually not a big deal, but it became cognitive load when talking about "route" vs "routeR" caches. Hopefully this is something that can be proof-read and fixed eventually.
 
-- [Next.js Foundations for Professional Web Development](nextjs-foundations.md)
-- [Styling Next.js Applications with CSS](./styling-module.md)
-- [Next.js Production Project Setup and Infrastructure](setup-and-infra.md)
-- [Next.js React Server Component (RSC) Architecture](rsc-architecture.md)
+Jack also mentions in the second to last video that he has some friends at a company that use a certain caching strategy. I appreciate the technology callout, but I'm not sure the company name is adding any value here. It's unfortunately a little alarming to hear that association, and is something that could alienate certain users. Until this point I was enjoying the course completely, but with it's inclusion I'm not sure I can recommend everyone check this out.
+
+Overall it's a lot of great material. Next.js is covered top to bottom, including it's latest architectural patterns. Not only does this course get you up to speed with the platform, but it also touches on how this platform might fit into a variety of external architectures. This is a great resource for anybody who wants to master delivering modern Next.js
